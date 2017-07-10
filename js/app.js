@@ -97,6 +97,7 @@ Player.prototype.handleInput = function(key_input) {
         this.x = long + 101;
     }
     if (this.y <= 0) {
+        alert("Great job, you made it to the water and won the game!");
         this.x = 205;
         this.y = 405;
 
