@@ -20,12 +20,22 @@ Enemy.prototype.update = function(dt) {
     // You should multiply any movement by the dt parameter
     // which will ensure the game runs at the same speed for
     // all computers.
+    this.x += this.speed * dt;
+    if (this.x > 505) {
+        this.x = -100;
+        this.y = this.y;
+        this.speed = Math.floor((Math.random() * 4) + 1) * 83;
+    }
+
+
 };
 
 // Draw the enemy on the screen, required method for game
 Enemy.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
+
+
 
 // Now write your own player class
 // This class requires an update(), render() and
