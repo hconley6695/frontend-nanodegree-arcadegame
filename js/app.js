@@ -44,6 +44,33 @@ var Player = function(coordX, coordY) {
 Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.playerSprite), this.x, this.y);
 };
+
+Player.prototype.handleInput = function(key_input) {
+
+    var lat = this.y;
+    var long = this.x;
+
+    if (key_input === "up") {
+        this.y = lat - 85;
+    } 
+    if (key_input === "down" && this.y < 400) {
+
+        this.y = lat + 85;
+    }
+    if (key_input === "left" && this.x > 101) {
+        
+        this.x = long - 101;
+    }
+    if (key_input === "right" && this.x < 400 ) {
+        this.x = long + 101;
+    }
+    if (this.y <= 0) {
+        this.x = 205;
+        this.y = 405;
+
+    }
+
+}
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 
