@@ -1,10 +1,10 @@
-#Frogger Arcade Game
+# Frogger Arcade Game
 
-**Summary**
+## Summary
 Frogger Aracade is a variation on the classic arcade game Frogger.
 
 
-**Getting Started**
+## Getting Started
 
 	To run the application:
 
@@ -16,18 +16,18 @@ Frogger Aracade is a variation on the classic arcade game Frogger.
 
 	Play can begin immediately.
 
-**How to Play Frogger**
+## How to Play Frogger
 
 	Using the arrow keys on your keyboard, move your player up, down, left and right to cross the bricks to reach the water to win the game.  Avoid the enemy bugs.  If you collide with them, your player will be reset back to his original starting position.  When you reach the water and win the game, your player is automatically reset back to his original position to start a new game.
 
-**Tools and Techniques**
+## Tools and Techniques
 	
 	HTML5 Canvas API	
 	Object-oriented JavaScript
 	Constructor Functions
 	Prototypal Inheritance
 
-**Project Requirements**
+## Project Requirements
 
 	This project is part of Udacity's Front End Nanodegree program.  The project rubrics can be found at the following URL: https://review.udacity.com/#!/rubrics/15/view
 
