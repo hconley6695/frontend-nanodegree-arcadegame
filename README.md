@@ -1,14 +1,33 @@
-frontend-nanodegree-arcade-game
-===============================
+#Frogger Arcade Game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+**Summary**
+Frogger Aracade is a variation on the classic arcade game Frogger.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
-1. How to Run Frogger
+**Getting Started**
 
-	
+	To run the application:
 
-2. How to Play Frogger
+	Download the Github repository on your local workstation: 
+		$ git clone https://github.com/hconley6695/frontend-nanodegree-arcadegame
+
+	Place the path of the index.html file of the application in a browser window.  	
+		(i.e. file:///Users/charlesconley/udacity%20submissions/frontend-nanodegree-arcadegame/index.html)
+
+	Play can begin immediately.
+
+**How to Play Frogger**
 
 	Using the arrow keys on your keyboard, move your player up, down, left and right to cross the bricks to reach the water to win the game.  Avoid the enemy bugs.  If you collide with them, your player will be reset back to his original starting position.  When you reach the water and win the game, your player is automatically reset back to his original position to start a new game.
+
+**Tools and Techniques**
+	
+	HTML5 Canvas API	
+	Object-oriented JavaScript
+	Constructor Functions
+	Prototypal Inheritance
+
+**Project Requirements**
+
+	This project is part of Udacity's Front End Nanodegree program.  The project rubrics can be found at the following URL: https://review.udacity.com/#!/rubrics/15/view
+
